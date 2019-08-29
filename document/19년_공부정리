@@ -1,0 +1,128 @@
+공부
+
+---------------------------------------------------
+폰트 : d2coding 폰트
+ - 네이버에서 배포하는 폰트 (무료)
+https://github.com/naver/d2codingfont/releases
+
+---------------------------------------------------
+node.js 설치
+
+https://nodejs.org/en/
+
+설치후 node -v 로 버전확인
+
+---------------------------------------------------
+vs code 설치
+
+https://code.visualstudio.com/
+
+ctrl + p 는 입력창호출
+> + 단어로 원하는 메뉴로 갈수 있음.
+ex) >Config 로 config locale 찾아 한국어 추가
+
+F1을 클릭하면 바로 메뉴이동 화면 호출
+---------------------------------------------------
+
+git 생성
+ - front 단 공부 github
+
+https://github.com/handashi123/frontStudy.git
+
+---------------------------------------------------
+node 실행
+http 모듈을 불러온 js 를 node 실행.js 로 실행한다.
+http모듈에서 createServer 를 정의 해야한다.
+ex) node server.js
+
+---------------------------------------------------
+function 간략화
+
+function(){
+}
+
+을 
+
+() => {} 로 변경해서 사용할수 있다.
+
+---------------------------------------------------
+node 한글 깨짐
+header 부분에 charset 추가
+
+response.writeHead(200, {'Content-Type':'text/html;charset=UTF-8'});
+---------------------------------------------------
+post man 설치
+https://www.getpostman.com/downloads/
+
+
+---------------------------------------------------
+
+node 이벤트처리
+
+1. EventEmitter : node.js 의 모든 이벤트 처리가 정의된 기본객체
+2. on() : 이벤트를 연결하는 함수
+ ex) on('data', data)
+3. emit() : 이벤트를 발생시키는 함수. on() 함수에서 'data' 라는 이벤트가 캐치되기 위해서는
+   emit('data')의 형태로 이벤트를 발생시켜야 함.
+
+---------------------------------------------------
+무료 이미지 관련 사이트
+
+https://pixabay.com/
+
+---------------------------------------------------
+몽고 DB 설치
+
+https://www.mongodb.com/
+
+설치폴더/mongodb/data 폴더 생성
+
+설치폴더/mongodb/bin/mongod --dbpath 설치폴더/mongodb/datas
+
+* 서버 실행
+.\mongod --dbpath D:\study\mongodb-4.0.10\datas
+
+* 클라이언트 실행
+mongo
+
+---------------------------------------------------
+npm 세팅
+
+* npm 은 node 설치 될때 같이 설치됨.
+
+프로젝트에서 npm init -y 를 실행하면 package.json이 생성된다.
+
+---------------------------------------------------
+ui 그리드
+
+1. toast grid
+https://ui.toast.com/tui-grid/
+
+2. axij
+http://axisj.com/
+
+
+---------------------------------------------------
+mongo db 예제 테스트 방법
+
+1. 웹서버로 접속해 crud 테스트 방식을 만든다.'
+2. 각 crud시 mongo db에 접속해 동작하도록 하고 데이터 확인
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
